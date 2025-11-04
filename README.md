@@ -5,6 +5,7 @@ i wrote this in a few hours
 
 its designed for other scripts, to be either molded in them or used by them
 
+![hello, the inage didn't load](https://files.catbox.moe/ewbcuj.jpg)
 ## **usage**
 
 chmod +x path/to/install_dependancy.sh
