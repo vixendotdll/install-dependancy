@@ -1,6 +1,8 @@
 # install-dependancy
 installs dependancies from arguments (LINUX ONLY)
+
 i wrote this in a few hours 
+
 its designed for other scripts, to be either molded in them or used by them
 
 ## **usage**
