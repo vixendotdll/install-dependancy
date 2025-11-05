@@ -61,6 +61,7 @@ install_dependancies() {
             clearlinux)                                                                                                                               sudo swupd update && sudo swupd bundle-add "${missing[@]}" ;;
             kubuntu|xubuntu|ubuntu‑kylin)                                                                                                             sudo apt update && sudo apt install -y "${missing[@]}" ;;
             parrot)                                                                                                                                   sudo apt update && sudo apt install -y "${missing[@]}" ;;
+            bazzite)                                                                                                                                  rpm-ostree update && rpm-ostree install "${missing[@]}" ;;
             *)                                                                                                                                        echo "unsupported distro: $DISTRO u gotta install ${missing[*]} manually." ;;
         esac
     ) #these three just close the "case", "subshell" and exit the "function" so that the function is now ready to use
