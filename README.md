@@ -9,6 +9,7 @@ its designed for other scripts, to be either molded in them or used by them
 ## **usage**
 
 chmod +x path/to/install_dependancy.sh
+
 ./install_dependancy.sh package_1 package_2 package_3
 
 ## **the reason it works**
